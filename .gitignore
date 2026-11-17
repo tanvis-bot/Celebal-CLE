@@ -1,10 +1,24 @@
+# macOS
 .DS_Store
-*.log
 
-# Large raw datasets
-Week-01-SQL/data/raw/*.csv
+# Logs
+*.log
 
 # Python
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 .venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Week 1 dataset
+Week-01-SQL/data/raw/*.csv
+
+# Week 2 datasets
+Week-02-Python/data/raw/*
+!Week-02-Python/data/raw/.gitkeep
+Week-02-Python/data/processed/*.parquet
